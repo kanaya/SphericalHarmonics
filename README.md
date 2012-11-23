@@ -46,7 +46,7 @@ SphericalHarmonics は全天画像を球面調和函数変換するためのプ�
 
     double comp_pixel(int x, int y, int sqrt_n_pixels, const double *sh_coeffs, int n_bands);
 
-中身が何だったか忘れました．．．
+`comp_image` の逐次実行バージョンです．1回の呼び出しで，1ピクセル分のみ計算します．
 
     void clip_image(double *image, int sqrt_n_pixels);
 
