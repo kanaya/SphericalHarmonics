@@ -9,9 +9,9 @@
 #import <math.h>
 #import <stdlib.h>
 #import <gsl/gsl_sf_legendre.h>
+#import <SphericalHarmonicsCore.h>
+#import <MersenneTwister.h>
 #import "SphericalHarmonicsDoc.h"
-#import "SphericalHarmonicsCore.h"
-#import "MersenneTwister.h"
 
 @implementation SphericalHarmonicsDoc
 
@@ -223,7 +223,7 @@
     [inverse_transform_button setEnabled: YES];
     
     free(image);
-    free(sampling_points);
+    ///// free(sampling_points); ///// Error? Temporary commented out (2012-11-23)
 }
 
 - (IBAction)inverse_transform:(id)sender

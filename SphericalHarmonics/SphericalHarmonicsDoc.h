@@ -9,7 +9,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface SphericalHarmonicsDoc : NSDocument
+@interface SphericalHarmonicsDoc: NSDocument
 {
     IBOutlet id coeff_view;
     IBOutlet id result_view;
@@ -28,7 +28,7 @@
 	int n_bands;
 	double *coeffs;
 }
-- (IBAction)load_source:(id)sender;
-- (IBAction)trnasform:(id)sender;
-- (IBAction)inverse_transform:(id)sender;
+- (IBAction)load_source: (id)sender;
+- (IBAction)trnasform: (id)sender;
+- (IBAction)inverse_transform: (id)sender;
 @end

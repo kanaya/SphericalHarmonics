@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,16 +17,6 @@
 		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
 		BF30934905B111570020E3CF /* sh-app-icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = BF30934805B111570020E3CF /* sh-app-icon.icns */; };
-		BF4C405605AD57B700FC037C /* SphericalHarmonicsCore.h in Headers */ = {isa = PBXBuildFile; fileRef = BF4C405405AD57B700FC037C /* SphericalHarmonicsCore.h */; };
-		BF4C405705AD57B700FC037C /* SphericalHarmonicsCore.c in Sources */ = {isa = PBXBuildFile; fileRef = BF4C405505AD57B700FC037C /* SphericalHarmonicsCore.c */; };
-		BF4C405805AD57B700FC037C /* SphericalHarmonicsCore.h in Headers */ = {isa = PBXBuildFile; fileRef = BF4C405405AD57B700FC037C /* SphericalHarmonicsCore.h */; };
-		BF4C405905AD57B700FC037C /* SphericalHarmonicsCore.c in Sources */ = {isa = PBXBuildFile; fileRef = BF4C405505AD57B700FC037C /* SphericalHarmonicsCore.c */; };
-		BF4C406505AD589C00FC037C /* MersenneTwister.h in Headers */ = {isa = PBXBuildFile; fileRef = BF4C406305AD589C00FC037C /* MersenneTwister.h */; };
-		BF4C406605AD589C00FC037C /* MersenneTwister.c in Sources */ = {isa = PBXBuildFile; fileRef = BF4C406405AD589C00FC037C /* MersenneTwister.c */; };
-		BF4C406705AD589C00FC037C /* MersenneTwister.h in Headers */ = {isa = PBXBuildFile; fileRef = BF4C406305AD589C00FC037C /* MersenneTwister.h */; };
-		BF4C406805AD589C00FC037C /* MersenneTwister.c in Sources */ = {isa = PBXBuildFile; fileRef = BF4C406405AD589C00FC037C /* MersenneTwister.c */; };
-		BF6A5FAA05B015D20059AE77 /* libgsl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6A5FA905B015D20059AE77 /* libgsl.a */; };
-		BFEA4BD205B11BB1004BB01A /* libgslcblas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEA4BD105B11BB1004BB01A /* libgslcblas.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,14 +34,6 @@
 		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D15AC370486D014006FF6A4 /* SphericalHarmonics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SphericalHarmonics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF30934805B111570020E3CF /* sh-app-icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "sh-app-icon.icns"; sourceTree = "<group>"; };
-		BF4C405105AD579800FC037C /* libSphericalHarmonicsCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSphericalHarmonicsCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF4C405405AD57B700FC037C /* SphericalHarmonicsCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphericalHarmonicsCore.h; sourceTree = "<group>"; };
-		BF4C405505AD57B700FC037C /* SphericalHarmonicsCore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SphericalHarmonicsCore.c; sourceTree = "<group>"; };
-		BF4C406005AD588000FC037C /* libMersenneTwister.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMersenneTwister.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF4C406305AD589C00FC037C /* MersenneTwister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MersenneTwister.h; sourceTree = "<group>"; };
-		BF4C406405AD589C00FC037C /* MersenneTwister.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MersenneTwister.c; sourceTree = "<group>"; };
-		BF6A5FA905B015D20059AE77 /* libgsl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgsl.a; sourceTree = "<group>"; };
-		BFEA4BD105B11BB1004BB01A /* libgslcblas.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgslcblas.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +42,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
-				BF6A5FAA05B015D20059AE77 /* libgsl.a in Frameworks */,
-				BFEA4BD205B11BB1004BB01A /* libgslcblas.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				8D15AC370486D014006FF6A4 /* SphericalHarmonics.app */,
-				BF4C405105AD579800FC037C /* libSphericalHarmonicsCore.a */,
-				BF4C406005AD588000FC037C /* libMersenneTwister.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,7 +81,6 @@
 				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
 				2A37F4B8FDCFA73011CA2CEA /* Resources */,
 				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
-				BF4C404B05AD56D500FC037C /* Libraries */,
 				19C28FB0FE9D524F11CA2CBB /* Products */,
 			);
 			name = SphericalHarmonics;
@@ -149,30 +126,9 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BF4C404A05AD56C900FC037C /* gsl-1.4 */ = {
-			isa = PBXGroup;
-			children = (
-				BF6A5FA905B015D20059AE77 /* libgsl.a */,
-				BFEA4BD105B11BB1004BB01A /* libgslcblas.a */,
-			);
-			name = "gsl-1.4";
-			sourceTree = "<group>";
-		};
-		BF4C404B05AD56D500FC037C /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-				BF4C404A05AD56C900FC037C /* gsl-1.4 */,
-			);
-			name = Libraries;
-			sourceTree = "<group>";
-		};
 		BF4C405A05AD57DD00FC037C /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				BF4C406305AD589C00FC037C /* MersenneTwister.h */,
-				BF4C406405AD589C00FC037C /* MersenneTwister.c */,
-				BF4C405405AD57B700FC037C /* SphericalHarmonicsCore.h */,
-				BF4C405505AD57B700FC037C /* SphericalHarmonicsCore.c */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -186,24 +142,6 @@
 			files = (
 				8D15AC290486D014006FF6A4 /* SphericalHarmonics_Prefix.pch in Headers */,
 				8D15AC2A0486D014006FF6A4 /* SphericalHarmonicsDoc.h in Headers */,
-				BF4C405605AD57B700FC037C /* SphericalHarmonicsCore.h in Headers */,
-				BF4C406505AD589C00FC037C /* MersenneTwister.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF4C404E05AD579800FC037C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF4C405805AD57B700FC037C /* SphericalHarmonicsCore.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF4C405D05AD588000FC037C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF4C406705AD589C00FC037C /* MersenneTwister.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,51 +167,26 @@
 			productReference = 8D15AC370486D014006FF6A4 /* SphericalHarmonics.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BF4C405005AD579800FC037C /* SphericalHarmonicsCore */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BF2897550AEDA9AA00DF25F1 /* Build configuration list for PBXNativeTarget "SphericalHarmonicsCore" */;
-			buildPhases = (
-				BF4C404E05AD579800FC037C /* Headers */,
-				BF4C404F05AD579800FC037C /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SphericalHarmonicsCore;
-			productName = SphericalHarmonicsCore;
-			productReference = BF4C405105AD579800FC037C /* libSphericalHarmonicsCore.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		BF4C405F05AD588000FC037C /* MersenneTwister */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BF2897590AEDA9AA00DF25F1 /* Build configuration list for PBXNativeTarget "MersenneTwister" */;
-			buildPhases = (
-				BF4C405D05AD588000FC037C /* Headers */,
-				BF4C405E05AD588000FC037C /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MersenneTwister;
-			productName = MersenneTwister;
-			productReference = BF4C406005AD588000FC037C /* libMersenneTwister.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
 			buildConfigurationList = BF28975D0AEDA9AA00DF25F1 /* Build configuration list for PBXProject "SphericalHarmonics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* SphericalHarmonics */;
 			projectDirPath = "";
+			projectRoot = "";
 			targets = (
 				8D15AC270486D014006FF6A4 /* SphericalHarmonics */,
-				BF4C405005AD579800FC037C /* SphericalHarmonicsCore */,
-				BF4C405F05AD588000FC037C /* MersenneTwister */,
 			);
 		};
 /* End PBXProject section */
@@ -300,24 +213,6 @@
 			files = (
 				8D15AC310486D014006FF6A4 /* SphericalHarmonicsDoc.m in Sources */,
 				8D15AC320486D014006FF6A4 /* main.m in Sources */,
-				BF4C405705AD57B700FC037C /* SphericalHarmonicsCore.c in Sources */,
-				BF4C406605AD589C00FC037C /* MersenneTwister.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF4C404F05AD579800FC037C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF4C405905AD57B700FC037C /* SphericalHarmonicsCore.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF4C405E05AD588000FC037C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF4C406805AD589C00FC037C /* MersenneTwister.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,12 +257,13 @@
 		BF2897520AEDA9AA00DF25F1 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUGGING_SYMBOLS = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_ALTIVEC_EXTENSIONS = NO;
+				GCC_ALTIVEC_EXTENSIONS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_ENABLE_TRIGRAPHS = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_CPU = G5;
@@ -379,18 +275,31 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = NO;
-				HEADER_SEARCH_PATHS = /usr/local/include;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/opt/local/include,
+					$HOME/Local/include,
+				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
 					/usr/local/lib,
+					/opt/local/lib,
 					/Users/kanaya/Programs/SphericalHarmonics,
+					$HOME/Local/lib,
 				);
+				MACOSX_DEPLOYMENT_TARGET = "";
 				OPTIMIZATION_CFLAGS = "-O0";
 				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-lmersennetwister",
+					"-lsphericalharmonics",
+					"-lgsl",
+					"-lgslcblas",
+				);
 				PRODUCT_NAME = SphericalHarmonics;
 				SECTORDER_FLAGS = "";
+				VALID_ARCHS = "i386 x86_64";
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -404,10 +313,11 @@
 		BF2897530AEDA9AA00DF25F1 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_ALTIVEC_EXTENSIONS = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ALTIVEC_EXTENSIONS = "";
 				GCC_ENABLE_TRIGRAPHS = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_CPU = G5;
@@ -418,17 +328,30 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = NO;
-				HEADER_SEARCH_PATHS = /usr/local/include;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/opt/local/include,
+					$HOME/Local/include,
+				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
 					/usr/local/lib,
+					/opt/local/lib,
 					/Users/kanaya/Programs/SphericalHarmonics,
+					$HOME/Local/lib,
 				);
+				MACOSX_DEPLOYMENT_TARGET = "";
 				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-lmersennetwister",
+					"-lsphericalharmonics",
+					"-lgsl",
+					"-lgslcblas",
+				);
 				PRODUCT_NAME = SphericalHarmonics;
 				SECTORDER_FLAGS = "";
+				VALID_ARCHS = "i386 x86_64";
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -442,8 +365,10 @@
 		BF2897540AEDA9AA00DF25F1 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_ALTIVEC_EXTENSIONS = NO;
+				GCC_ALTIVEC_EXTENSIONS = "";
 				GCC_ENABLE_TRIGRAPHS = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_CPU = G5;
@@ -454,17 +379,30 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = NO;
-				HEADER_SEARCH_PATHS = /usr/local/include;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/opt/local/include,
+					$HOME/Local/include,
+				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
 					/usr/local/lib,
+					/opt/local/lib,
 					/Users/kanaya/Programs/SphericalHarmonics,
+					$HOME/Local/lib,
 				);
+				MACOSX_DEPLOYMENT_TARGET = "";
 				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-lmersennetwister",
+					"-lsphericalharmonics",
+					"-lgsl",
+					"-lgslcblas",
+				);
 				PRODUCT_NAME = SphericalHarmonics;
 				SECTORDER_FLAGS = "";
+				VALID_ARCHS = "i386 x86_64";
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -475,139 +413,27 @@
 			};
 			name = Default;
 		};
-		BF2897560AEDA9AA00DF25F1 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				DEBUGGING_SYMBOLS = YES;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
-				GCC_WARN_UNKNOWN_PRAGMAS = NO;
-				INSTALL_PATH = /usr/local/lib;
-				LIBRARY_STYLE = STATIC;
-				OPTIMIZATION_CFLAGS = "-O0";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = SphericalHarmonicsCore;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = "-Wmost";
-				ZERO_LINK = YES;
-			};
-			name = Development;
-		};
-		BF2897570AEDA9AA00DF25F1 /* Deployment */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
-				GCC_WARN_UNKNOWN_PRAGMAS = NO;
-				INSTALL_PATH = /usr/local/lib;
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = SphericalHarmonicsCore;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = "-Wmost";
-				ZERO_LINK = NO;
-			};
-			name = Deployment;
-		};
-		BF2897580AEDA9AA00DF25F1 /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
-				GCC_WARN_UNKNOWN_PRAGMAS = NO;
-				INSTALL_PATH = /usr/local/lib;
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = SphericalHarmonicsCore;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = "-Wmost";
-			};
-			name = Default;
-		};
-		BF28975A0AEDA9AA00DF25F1 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				DEBUGGING_SYMBOLS = YES;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
-				GCC_WARN_UNKNOWN_PRAGMAS = NO;
-				INSTALL_PATH = /usr/local/lib;
-				LIBRARY_STYLE = STATIC;
-				OPTIMIZATION_CFLAGS = "-O0";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = MersenneTwister;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = "-Wmost";
-				ZERO_LINK = YES;
-			};
-			name = Development;
-		};
-		BF28975B0AEDA9AA00DF25F1 /* Deployment */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
-				GCC_WARN_UNKNOWN_PRAGMAS = NO;
-				INSTALL_PATH = /usr/local/lib;
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = MersenneTwister;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = "-Wmost";
-				ZERO_LINK = NO;
-			};
-			name = Deployment;
-		};
-		BF28975C0AEDA9AA00DF25F1 /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
-				GCC_WARN_UNKNOWN_PRAGMAS = NO;
-				INSTALL_PATH = /usr/local/lib;
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = MersenneTwister;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = "-Wmost";
-			};
-			name = Default;
-		};
 		BF28975E0AEDA9AA00DF25F1 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_ALTIVEC_EXTENSIONS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 			};
 			name = Development;
 		};
 		BF28975F0AEDA9AA00DF25F1 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_ALTIVEC_EXTENSIONS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 			};
 			name = Deployment;
 		};
 		BF2897600AEDA9AA00DF25F1 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_ALTIVEC_EXTENSIONS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 			};
 			name = Default;
 		};
@@ -620,26 +446,6 @@
 				BF2897520AEDA9AA00DF25F1 /* Development */,
 				BF2897530AEDA9AA00DF25F1 /* Deployment */,
 				BF2897540AEDA9AA00DF25F1 /* Default */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
-		};
-		BF2897550AEDA9AA00DF25F1 /* Build configuration list for PBXNativeTarget "SphericalHarmonicsCore" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BF2897560AEDA9AA00DF25F1 /* Development */,
-				BF2897570AEDA9AA00DF25F1 /* Deployment */,
-				BF2897580AEDA9AA00DF25F1 /* Default */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
-		};
-		BF2897590AEDA9AA00DF25F1 /* Build configuration list for PBXNativeTarget "MersenneTwister" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BF28975A0AEDA9AA00DF25F1 /* Development */,
-				BF28975B0AEDA9AA00DF25F1 /* Deployment */,
-				BF28975C0AEDA9AA00DF25F1 /* Default */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Default;
