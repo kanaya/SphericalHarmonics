@@ -1,1 +1,0 @@
-GNU Scientific Library (GSL) v1.4 installed at /usr/local/{include,lib}
