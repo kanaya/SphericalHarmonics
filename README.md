@@ -11,7 +11,7 @@ SphericalHarmonics は全天画像を球面調和函数変換するためのプ�
 なお，本実装の球面調和函数変換関数は [GNU Scientific Library](http://www.gnu.org/software/gsl/) 1.4 およびメルセンヌ・ツイスタ2002年版に依存しています．互換性のため，メルセンヌ・ツイスタ2002年版を本パッケージに同梱しています．
 
 ## やっていること
-球面調和函数を Y_l^m(\alpha,\beta) とします．本パッケージの関数（球面調和函数変換函数）は，全天画像が f(\alpha,\beta) で与えられたとすると，これを f(\alpha,\beta)=\sum_{l=0}^\infty\sum_{m=-l}^{+l}c_l^mY_l^m(\alpha,\beta) となるような球面調和函数係数 c_l^m に分解します．
+球面調和函数を Y_l^m(\alpha,\beta) とします．本パッケージの関数（球面調和函数変換関数）は，全天画像が f(\alpha,\beta) で与えられたとすると，これを f(\alpha,\beta)=\sum_{l=0}^\infty\sum_{m=-l}^{+l}c_l^mY_l^m(\alpha,\beta) となるような球面調和函数係数 c_l^m に分解します．
 
 
 ## パッケージ構成
