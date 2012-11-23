@@ -54,19 +54,20 @@ SphericalHarmonics は全天画像を球面調和函数変換するためのプ�
 
     void scale_image(double *image, int sqrt_n_pixels);
 
-画像の画素値の最大を1になるように画像を正規化する関数．
+画像の画素値の最大を1になるように画像を正規化する関数．画像は1次元配列で，画素値はdouble型で与えます．画像のサイズは `sqrt_n_pixel` x `sqrt_n_pixel` です．
 
     void normalize_image(double *image, int sqrt_n_pixels);
 
-画像の画素値の合計が1になるように画像を正規化する関数．
+画像の画素値の合計が1になるように画像を正規化する関数．画像は1次元配列で，画素値はdouble型で与えます．画像のサイズは `sqrt_n_pixel` x `sqrt_n_pixel` です．
 
     void setup_uniform_hemispherical_dist(double *dist, int n_points);
 
-モンテカルロ法のためのオイラー角値ランダム生成関数．配列 `dist` は呼び出し側でメモリを確保する必要があります．配列 `dist` の配列長は `n_points` の2倍です．
+モンテカルロ法のためのオイラー角値ランダム生成関数．配列 `dist` は呼び出し側でメモリを確保する必要があります．配列 `dist` にはα，β，α，β，・・・とランダムな値が格納されます．配列 `dist` の配列長は `n_points` の2倍です．
 
     void setup_weighted_hemispherical_dist(double *dist, int n_points, const double *image, int sqrt_n_pixels);
 
-ソース読んで下さい．．．
+モンテカルロ法のためのオイラー角値ランダム生成函数．ピクセル数が `sqrt_n_pixels` x `sqrt_n_pixels` の正方形に内接する全天画像で，画素値の最大値が1であるように正規化された画像を `image` に与えると，画素値の大きさにほぼ比例した importance sampling を行います．
+
 
 ### MersenneTwister
 
