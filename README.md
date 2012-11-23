@@ -38,7 +38,7 @@ SphericalHarmonics は全天画像を球面調和函数変換するためのプ�
 
     void comp_image(double *image, int sqrt_n_pixels, const double *sh_coeffs, int n_bands);
 
-中身が何だったか忘れました．．．
+バンド数（次数）が `n_bands` の球面調和係数 `sh_coeffs` から解像度が `n_pixels` x `n_pixels` の画像 `image` を生成する関数．画像 `image` は呼び出し側で確保しておく必要があります．
 
     void comp_spherical_harmonics_coeffs_step_by_step(double *sh_coeffs, int n_bands, const double *image, int sqrt_n_pixels, double alpha, double beta);
 
